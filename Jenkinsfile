@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t bernardo9999/dp-alpine2:latest .'
+        sh 'docker build -t bernardo9999/dp-alpine-branch1:latest .'
       }
     }
     stage('Login') {
@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push bernardo9999/dp-alpine2:latest'
+        sh 'docker push bernardo9999/dp-alpine-branch1:latest'
       }
     }
   }
