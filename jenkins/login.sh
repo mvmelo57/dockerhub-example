@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin
+docker login -u bernardo9999 --password 6ff0bc74-e6ba-40f6-9375-12f638ca449e
