@@ -1,2 +1,2 @@
 #!/bin/bash
-docker push bernardo9999/dp-alpine-branch2:latest
+docker push mvmelo57/dp-alpine-branch2:latest
